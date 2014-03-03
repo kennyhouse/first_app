@@ -1,4 +1,27 @@
-<% provide(:title, 'Home') %>
 
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+
+<h1>First App</h1>
+
+<div class="center hero-unit">
+	<h1>h1 ----------------------
+
+		Welcome to the First App
+	</h1>
+	<h2>
+		h2 : ---------------------------------------------------------------------------------------
+
+		This is the home page for the
+		<a href="http://railstutorial.rog/">Ruby on Rails Tutorial</a> sample application
+	</h2>
+	<h3> Have some funs for the design! -- this is my comments</h3>
+	<h4> Try the h4 text size </h4>
+	<h3> How about this </h3>
+	<h6> Try the h6 tetx size </h6>
+	<%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary"  %>
+
+
+
+</div>
+
+<!--the image and the url can be chosen purposedly and --> 
+<%= link_to image_tag("22gallery.png", alt: "Rails"), 'http://rubyonrails.org/' %>
