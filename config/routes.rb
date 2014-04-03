@@ -1,5 +1,5 @@
 FirstApp::Application.routes.draw do
-  get "users/new"
+  
 
   root to: 'static_pages#home'
 
@@ -12,6 +12,13 @@ FirstApp::Application.routes.draw do
   match '/contact', to: 'static_pages#contact'
 
   match '/about', to: 'static_pages#about'
+
+  match '/Sign up now!', to: 'users#new'
+
+
+
+  
+
 
   
 
