@@ -1,6 +1,8 @@
 FirstApp::Application.routes.draw do
   
 
+  resources :microposts
+
   root to: 'static_pages#home'
 
   match '/home', to: 'static_pages#home'
